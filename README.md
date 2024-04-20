@@ -6,11 +6,11 @@ AIO docker image to serve any GGUF model as a LangServe endpoint
 
 Running ggufserve will expose the desired model as a REST endpoint using LangServe in port 8000. 
 
-Ways to consume it can be found in the [client jupyter notebook](https://github.com/ADRIANPGA/ggufserve/client.ipynb)
+Ways to consume it can be found in the [client jupyter notebook](https://github.com/ADRIANPGA/ggufserve/blob/main/client.ipynb)
 
 ### Pull and run
 
-Check [dockerhub repo](https://hub.docker.com/repository/docker/adrianpga/ggufserve/general) to find available versions of the image and run it as shown in [run folder](https://github.com/ADRIANPGA/ggufserve/run)
+Check [dockerhub repo](https://hub.docker.com/repository/docker/adrianpga/ggufserve/general) to find available versions of the image and run it as shown in [run folder](https://github.com/ADRIANPGA/ggufserve/tree/main/run)
 
 ### Build and run
 
