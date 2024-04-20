@@ -1,0 +1,1 @@
+docker run -d ggufserve:1.0.0-Llama-3-8B-Instruct-Q4 --port 8000:8000 --name local-llm -e TEMPERATURE=0.9 -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=compute,utility --gpus all
