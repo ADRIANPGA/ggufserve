@@ -2,8 +2,8 @@ version: '3.9'
 
 services:
   tc_gguf:
-    image: adrianpga/ggufserve:1.0.0-Llama-3-8B-Instruct-Q4
-    container_name: local-llm
+    image: adrianpga/ggufserve:1.0.0-Phi-3-mini-4k-instruct-fp16
+    container_name: local-llm-2
     ports:
       - "8000:8000"
     environment:

@@ -54,7 +54,8 @@ Starting with Ubuntu 22 with CUDA, Python and all project pip dependencies are i
 > [!NOTE]  
 > Size could probably be reduced starting from python and just installing cuda afterwards, but for [errors](https://stackoverflow.com/questions/76340960/cuda-to-docker-container)] this path is faster in terms of development time.
 
-
-
-
-
+```sh
+### If you want to check CUDA is correctly installed
+export PATH=/usr/local/cuda/bin:$PATH
+nvcc --version
+```

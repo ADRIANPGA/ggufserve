@@ -1,5 +1,5 @@
 # For easing the cuda install we start from cuda image and install python after
-ARG CUDA_IMAGE="12.1.1-devel-ubuntu22.04"
+ARG CUDA_IMAGE="12.4.1-devel-ubuntu22.04"
 FROM nvidia/cuda:${CUDA_IMAGE}
 
 # We need to set the host to 0.0.0.0 to allow outside access
